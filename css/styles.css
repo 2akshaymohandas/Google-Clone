@@ -1,0 +1,168 @@
+*{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.navigation{
+
+    
+    display: flex;
+    justify-content:right
+
+
+    
+}
+
+
+.text {
+    
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+.icon{
+    margin-left: 30px;
+    margin-right: 5px;
+
+} 
+
+
+/* ---------------------------GOOGLE--------------------- */
+
+
+.Center{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    display: flex;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e0e2e6;
+    /* outline: none; */
+    border-radius: 25px;
+    height: 47px;
+    width: 583px;
+    margin: auto;
+
+    /* outline: 1px solid black; */
+}
+input{
+    height: 34px;
+    width: 444px;
+    border: none;
+    outline: none;
+}
+.main span{
+
+    margin-top: 12px;
+}
+img{
+    cursor: pointer;
+}
+
+.mic{
+
+    height: 70%;
+    padding-top: 5px;
+}
+
+.lens{
+    padding-top: 3px;
+    height: 75%;
+}
+
+.button-div{
+   display: flex;
+    width: 280px;
+    /* height: 26px; */
+    margin:auto;
+    
+}
+
+.button-div button{
+    
+    
+    
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    height: 36px;
+    width: 127px;
+
+
+}
+
+
+.button-2{
+    margin-left: 10px;
+}
+
+#language{
+    font-size: 12px;
+    padding-top: 15px;
+    height: 50px;
+    width: 369px;
+    margin:auto;
+
+
+    
+}
+
+.footer {
+    
+    height: 50px;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom: 50px;
+    
+    
+    
+
+}
+.country{
+    margin-left: 10px;
+}
+
+.footer a{
+    margin-left: 10px;
+    
+}
+
+.country{
+    margin-top: 280px;
+    
+}
+
+.left-foot  .text{
+    font-size: 15px;
+}
+.right-foot  .text{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.foot{
+    background-color: #f2f2f2;
+}
